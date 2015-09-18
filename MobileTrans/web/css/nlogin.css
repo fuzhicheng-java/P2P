@@ -1,0 +1,138 @@
+    body
+    {
+        background:#f5f5f5;
+    }
+    .pass-input {
+display: block;
+float: left;
+height: 16px;
+width:160px;
+padding: 8px 10px;
+margin-right: 10px;
+border: 1px solid #d2d1d1;
+color: #666;
+transition: all 0.3s ease 0s;
+}
+#divAntiSpam input {
+height: 16px;
+padding: 6px;
+border: 1px solid #d2d1d1;
+margin-left:6px;
+}
+#LoginDiv {
+	margin:0 auto;
+	overflow:hidden;
+	height: 435px;
+    width:855px;
+	font-size:12px;
+	background-color:#f5f5f5;
+	color:#000000;
+}
+.login_lbg{
+	float:left;
+	background:url(../images/login/login_lbg.jpg) no-repeat;
+	width:493px;
+	height:329px;
+	}
+#LoginBox {
+	width:352px;
+	overflow:hidden;
+	padding:20px 0px 0px;
+}
+#LoginBox-title{
+	background:url(../images/login/login-tbg.jpg) no-repeat;
+	width:352px;
+	height:33px;
+	text-align:center;
+	font-family:"微软雅黑";
+	font-size:18px;
+	letter-spacing:2px;
+	padding-top:20px;
+	}
+#LoginBox-con{
+	width:311px;
+	border-left:1px solid #d9d9d9;
+	border-right:1px solid #d9d9d9;
+	background:#FFF;
+	margin-left:3px;
+	padding:25px 0 15px 32px;
+	}
+#LoginBox-con ul{
+	padding:0px;
+	}
+#LoginBox-con ul li{
+	margin-bottom:10px;
+	_margin-bottom:6px;
+	}
+input,button{
+	vertical-align:middle;
+	}
+#LoginBox-con ul li.centertxt{
+	padding-left:75px;
+	line-height:normal;
+	margin-top:15px;
+	}
+.username_input{
+	border:1px solid #d9d9d9;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	background:url(../images/login/username_ico.gif) no-repeat 6px 7px;
+	width:200px;
+	height:28px;
+	line-height:28px;
+	text-indent:2em;
+	margin-left:8px;
+	color:#747474;
+	}
+.code_input
+{
+    border:1px solid #d9d9d9;
+	width:50px;
+	height:20px;
+	line-height:20px;
+	margin-left:8px;
+	color:#747474;
+}
+.passward_input{
+	border:1px solid #d9d9d9;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	background:url(../images/login/username_ico2.gif) no-repeat 6px 7px;
+	width:200px;
+	height:28px;
+	line-height:28px;
+	text-indent:2em;
+	color:#747474;
+	margin-left:8px;
+	}
+#LoginBox-bottom{
+	background:url(../images/login/login-nbbg.jpg) no-repeat;
+	width:352px;
+	height:40px;
+	color:#FF0;
+	}
+#LoginBox-bottom ul{
+	padding:12px 0 0 40px;
+	margin:0;
+	}
+#LoginBox-bottom ul li{
+	line-height:20px;
+	display:inline;
+	float:left;
+	margin-right:32px;
+	}
+#LoginBox-bottom ul li span{
+	font-size:14px;
+	font-weight:bold;
+	}
+.reg_btn{
+	background:url(../images/login/reg_btn.jpg) no-repeat;
+	width:97px;
+	height:30px;
+	border:none;
+	display:inline-block;
+	}
+.reg_btn:hover {
+    background: url("../images/login/reg_btn.jpg") no-repeat scroll 0 -30px transparent;
+ 	width:97px;
+	height:30px;
+	border:none;
+}
